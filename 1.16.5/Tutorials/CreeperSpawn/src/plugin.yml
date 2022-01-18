@@ -1,0 +1,11 @@
+name: CreeperSpawn
+version: 1.0.1
+api-version: 1.16
+author: mbharring
+main: me.zack.CreeperSpawn.Main
+description: Spawns 10 Creepers on Player
+
+commands:
+  creepspawn:
+    aliases: [cs]
+    description: /cs to spawn 10 creepers

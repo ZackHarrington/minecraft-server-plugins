@@ -1,0 +1,7 @@
+author: Zack
+description: YoutubeCustomCreature
+
+main: com.zack.YoutubeCustomCreature.Main
+name: YoutubeCustomCreature
+version: 1.0.0
+api-version: 1.16

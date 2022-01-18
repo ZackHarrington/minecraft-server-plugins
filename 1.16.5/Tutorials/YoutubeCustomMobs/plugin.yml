@@ -1,0 +1,7 @@
+author: Zack
+description: Custom Mobs!
+
+main: com.zack.YoutubeCustomMobs.Main
+name: YoutubeCustomMobs
+version: 1.0.0
+api-version: 1.16

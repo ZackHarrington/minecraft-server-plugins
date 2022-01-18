@@ -1,0 +1,11 @@
+author: Zack
+description: My first EventHandler plugin
+
+main: com.zack.firstEventHandling.Main
+name: firstEventHandling
+version: 1.0.0
+commands:
+  config:
+  meow:
+    aliases: [mew, rrreoow]
+    description: Changes config word to something a little better

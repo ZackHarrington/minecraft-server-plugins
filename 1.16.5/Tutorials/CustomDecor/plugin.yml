@@ -1,0 +1,14 @@
+author: Zack
+description: CustomDecor signs, block change, skulls, banners
+
+main: com.zack.CustomDecor.Main
+name: CustomDecor
+version: 1.0.0
+api-version: 1.16
+commands:
+  skull:
+    description: makes a skull
+  banner:
+    description: makes a banner
+  cooldown
+  	description: cooolll

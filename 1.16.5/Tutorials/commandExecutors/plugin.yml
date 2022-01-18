@@ -1,0 +1,10 @@
+author: Zack
+description: My first command plugin
+
+main: com.zack.commandExecutors.Main
+name: commandExecutors
+version: 1.0.0
+commands:
+  heal:
+  number:
+  consoleonly:

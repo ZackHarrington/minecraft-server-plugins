@@ -1,0 +1,10 @@
+author: Zack
+description: Boss Pig Plugin
+
+main: com.zack.BossPig.Main
+name: BossPig
+version: 1.0.0
+api-version: 1.16
+commands:
+  summonBossPig:
+    description: Summons the flying pig lord

@@ -1,0 +1,6 @@
+author: Zack
+description: MOTD plugin
+
+main: com.zack.serveressentials_MOTD.Main
+name: serveressentials_MOTD
+version: 1.0.0

@@ -1,0 +1,10 @@
+author: Zack
+description: Every hostile mob is ragingly agressive
+
+main: com.zack.hyperHostileMobs.Main
+name: hyperHostileMobs
+version: 1.0.0
+api-version: 1.17
+commands:
+  hyperHostileMobs:
+    description: Allows players to interact with a the plugin

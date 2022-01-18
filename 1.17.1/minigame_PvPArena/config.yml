@@ -1,0 +1,83 @@
+default-required-players: 1
+default-timer-minutes: 8
+default-respawn-seconds: 10
+start-countdown-seconds: 30
+end-countdown-seconds: 5
+lobby-spawn:
+  world: 'pvparena_lobby'
+  x: 0
+  y: 60
+  z: 0
+  pitch: 0
+  yaw: 0
+pvparenas:
+  '0':
+    world: 'pvparena0'
+    time: 10000
+    weather: clear
+    lobby:
+      x: -3758
+      y: 132
+      z: -4062
+      pitch: 0
+      yaw: 0
+    center :
+      x: -3810
+      y: 109
+      z: -4110
+      pitch: 0
+      yaw: 0
+    spawnpoints:
+      '0':
+        x: -3764
+        y: 107
+        z: -4056
+        pitch: 0
+        yaw: 0
+      '1':
+        x: -3764
+        y: 107
+        z: -4056
+        pitch: 90
+        yaw: 90
+    vehicles:
+      '0':
+        type: horse
+        x: -3768
+        y: 84
+        z: -4025
+        pitch: 0
+        yaw: 0
+      '1':
+        type: fast_horse
+        x: -3765
+        y: 84
+        z: -4025
+        pitch: 0
+        yaw: 0
+      '2':
+        type: armored_horse
+        x: -3767
+        y: 84
+        z: -4024
+        pitch: 0
+        yaw: 0
+    chests:
+      '0':
+        x: -3769
+        y: 84
+        z: -4025
+        pitch: 0
+        yaw: 0
+      '1':
+        x: -3766
+        y: 84
+        z: -4025
+        pitch: 0
+        yaw: 0
+      '2':
+        x: -3768
+        y: 84
+        z: -4024
+        pitch: 0
+        yaw: 0

@@ -1,0 +1,7 @@
+author: Zack
+description: Random Game Changes have been added, try to find them all
+
+main: com.zack.randomGameChanges_1.Main
+name: randomGameChanges_1
+version: 1.1.0
+api-version: 1.17

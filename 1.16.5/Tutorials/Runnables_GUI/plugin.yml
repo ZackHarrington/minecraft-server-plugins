@@ -1,0 +1,11 @@
+author: Zack
+description: Runnables_GUI
+
+main: com.zack.Runnables_GUI.Main
+name: Runnables_GUI
+version: 1.0.0
+api-version: 1.16
+commands:
+  menu:
+    aliases: [m]
+    description: Opens a menu! Kinda cool I know

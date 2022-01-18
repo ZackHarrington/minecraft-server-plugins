@@ -1,0 +1,11 @@
+author: Zack
+description: A speed running plugin that gradually creates harder and harder zombies who can target you from great distances
+
+main: com.zack.ZombieApocalypse.Main
+name: ZombieApocalypse
+version: 1.0.1
+api-version: 1.16
+commands:
+  zombieapocalypse:
+    aliases: [za]
+    description: Controls the zombie apocalypse

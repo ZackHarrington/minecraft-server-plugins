@@ -1,0 +1,14 @@
+author: Zack
+description: A world generator plugin
+
+main: com.zack.serveressentials_WorldGenerator.Main
+name: WorldGenerator
+version: 1.1.1
+api-version: 1.16
+commands:
+  generateworld:
+    description: Allows OPs to create new worlds for various purposes
+  unloadworld:
+    description: Allows OPs to unload created worlds
+  worldname:
+    description: Debug command enabling you to get the name of the world you are in

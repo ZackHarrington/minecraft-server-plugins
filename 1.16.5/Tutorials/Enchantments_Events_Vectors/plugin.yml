@@ -1,0 +1,10 @@
+author: Zack
+description: Enchantments_Events_Vectors
+
+main: com.zack.Enchantments_Events_Vectors.Main
+name: Enchantments_Events_Vectors
+version: 1.0.0
+api-version: 1.16
+commands:
+  broadcast:
+    description: does a broadcast, makes and event happen

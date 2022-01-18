@@ -1,0 +1,13 @@
+author: Zack
+description: My first try at a plugin
+
+main: com.zack.FirstTry.Main
+name: FirstTry
+version: 1.1.1
+commands:
+  beginspawn:
+    description: Starts the spawning of mobs from blocks
+  endspawn:
+    description: Ends the spawning of mobs from blocks
+  removespawned:
+    description: removes all mobs spawned from blocks

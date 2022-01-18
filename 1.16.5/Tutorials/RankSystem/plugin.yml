@@ -1,0 +1,11 @@
+author: Zack
+description: RankSystem
+
+main: com.zack.RankSystem.Main
+name: RankSystem
+version: 1.0.0
+api-version: 1.16
+commands:
+  setrank:
+    description: Set a player's rank
+    aliases: [sr, rank]

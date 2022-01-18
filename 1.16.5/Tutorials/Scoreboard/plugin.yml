@@ -1,0 +1,7 @@
+author: Zack
+description: Scoreboard
+
+main: com.zack.Scoreboard.Main
+name: Scoreboard
+version: 1.0.0
+api-version: 1.16

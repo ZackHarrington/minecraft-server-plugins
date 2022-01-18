@@ -1,0 +1,10 @@
+author: Zack
+description: A world editor plugin
+
+main: com.zack.serveressentials_WorldEdit.Main
+name: serveressentials_WorldEdit
+version: 1.1.0
+api-version: 1.17
+commands:
+  superblock:
+    description: Gives OPs a block that creates a tower up to a set height

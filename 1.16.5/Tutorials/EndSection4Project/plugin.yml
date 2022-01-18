@@ -1,0 +1,14 @@
+author: Zack
+description: End of Section 4
+
+main: com.zack.EndSection4Project.Main
+name: EndSection4Project
+version: 1.0.0
+api-version: 1.16
+commands:
+  message:
+    aliases: [msg]
+    description: private message a player
+  reply:
+    aliases: [r]
+    description: reply to a private message

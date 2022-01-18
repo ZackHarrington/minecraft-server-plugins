@@ -1,0 +1,6 @@
+author: Zack
+description: Set MOTD
+
+main: com.zack.MOTD_Boss_Holograms.Main
+name: MOTD_Boss_Holograms
+version: 1.0.0

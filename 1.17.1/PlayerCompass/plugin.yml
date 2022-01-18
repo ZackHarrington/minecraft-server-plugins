@@ -1,0 +1,11 @@
+author: Zack
+description: Allows compasses to target players
+
+main: com.zack.PlayerCompass.Main
+name: PlayerCompass
+version: 1.2.0
+api-version: 1.17
+commands:
+  seek:
+    aliases: [pc, playercompass]
+    description: Allows your compass to target a player

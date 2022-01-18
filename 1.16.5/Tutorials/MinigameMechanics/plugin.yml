@@ -1,0 +1,9 @@
+author: Zack
+description: MinigameMechanics
+
+main: com.zack.MinigameMechanics.Main
+name: MinigameMechanics
+version: 1.0.0
+api-version: 1.16
+commands:
+  arena:

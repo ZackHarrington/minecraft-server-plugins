@@ -1,0 +1,10 @@
+author: Zack
+description: API_Text
+
+main: com.zack.API_Text.Main
+name: API_Text
+version: 1.0.0
+api-version: 1.16
+commands:
+  hovertext:
+   description: hover over my text   duh

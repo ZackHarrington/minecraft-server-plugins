@@ -1,0 +1,7 @@
+author: Zack
+description: Adds a swiper that steals the items you drop
+
+main: com.zack.Swiper.Main
+name: Swiper
+version: 1.0.0
+api-version: 1.16

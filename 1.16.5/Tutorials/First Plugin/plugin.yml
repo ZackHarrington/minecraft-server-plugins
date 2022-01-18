@@ -1,0 +1,6 @@
+version: 1.0.0
+name: FirstPlugin
+main: com.zack.firstPlugin.Main
+
+author: Zack
+description: First plugin

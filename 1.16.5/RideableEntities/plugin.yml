@@ -1,0 +1,7 @@
+author: Zack
+description: All entities are now rideable!
+
+main: com.zack.RideableEntities.Main
+name: RideableEntities
+version: 1.0.0
+api-version: 1.16

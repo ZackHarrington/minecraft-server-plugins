@@ -1,0 +1,11 @@
+author: Zack
+description: SkyblockMinigame
+
+main: com.zack.SkyblockMinigame.Main
+name: SkyblockMinigame
+version: 1.0.0
+api-version: 1.16
+commands:
+  skyblock:
+    aliases: [sb]
+    description: Your own skyblock world!

@@ -1,0 +1,10 @@
+author: Zack
+description: tp to your death location
+
+main: com.zack.tpDeathLocation.Main
+name: tpDeathLocation
+version: 1.0.0
+api-version: 1.16
+commands:
+  tpdeathloc:
+    description: Teleports you to your death location

@@ -1,0 +1,14 @@
+author: Zack
+description: CustomCrafting_YML
+
+main: com.zack.CustomCrafting_YML.Main
+name: CustomCrafting_YML
+version: 1.0.0
+api-version: 1.16
+commands:
+  yml:
+    description: does a yml thing
+  book:
+    description: gives you a happy little book
+  help:
+    description: helpful

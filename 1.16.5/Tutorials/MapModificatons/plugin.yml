@@ -1,0 +1,12 @@
+author: Zack
+description: Map Mods and stuff
+
+main: com.zack.MapModifications.Main
+name: MapModifications
+version: 1.0.0
+api-version: 1.16
+commands:
+  test:
+    description: Good test command
+  poof:
+    description: and you're gone!

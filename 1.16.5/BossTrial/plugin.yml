@@ -1,0 +1,7 @@
+author: Zack
+description: BossTrial
+
+main: com.zack.BossTrial.Main
+name: BossTrial
+version: 1.0.0
+api-version: 1.16

@@ -1,0 +1,11 @@
+author: Zack
+description: YoutubeAttributeModifier
+
+main: com.zack.YoutubeAttributeModifier.Main
+name: YoutubeAttributeModifier
+version: 1.0.0
+api-version: 1.16
+commands:
+  bonus:
+    aliases: [b, B]
+    description: Gives something a bonus

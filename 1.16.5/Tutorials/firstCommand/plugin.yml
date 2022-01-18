@@ -1,0 +1,10 @@
+author: Zack
+description: My first command plugin
+
+main: com.zack.firstCommand.Main
+name: firstCommand
+version: 1.0.0
+commands:
+  hello:
+    aliases: [hi, hellooo]
+    description: Good test command!

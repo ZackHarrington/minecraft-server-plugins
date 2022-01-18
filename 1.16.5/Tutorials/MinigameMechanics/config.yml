@@ -1,0 +1,30 @@
+required-players: 1
+countdown-seconds: 30
+lobby-spawn:
+  world: 'lobby'
+  x: 0
+  y: 0
+  z: 0
+  pitch: 0
+  yaw: 0
+arenas:
+  '0': 
+    spawn:
+      world: 'arena0'
+      x: 10
+      y: 100
+      z: 100
+      pitch: 100
+      yaw: 100
+    sign:
+      world: 'arena0'
+      x: 10
+      y: 70
+      z: 100
+    npc:
+      world: 'arena0'
+      x: 10
+      y: 72
+      z: 100
+      pitch: -10
+      yaw: -179

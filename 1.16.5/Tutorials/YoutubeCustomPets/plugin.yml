@@ -1,0 +1,12 @@
+author: Zack
+description: YoutubeCustomPet
+
+main: com.zack.YoutubeCustomPets.Main
+name: YoutubeCustomPet
+version: 1.0.0
+api-version: 1.16
+commands:
+  pet:
+    description: Creates a pet for you
+  spawnchickfilacow:
+    description: This Cow does not like chickens

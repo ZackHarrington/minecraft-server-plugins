@@ -1,0 +1,7 @@
+author: Zack
+description: GodEnchantments
+
+main: com.zack.GodEnchantments.Main
+name: GodEnchantments
+version: 1.1.0
+api-version: 1.16
