@@ -1,3 +1,4 @@
+# Generated .gitignore
 # Compiled class file
 *.class
 
@@ -21,3 +22,21 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# gitignore for minecraft-server-plugins
+# Generics
+*.tlog
+*.obj
+*.user
+*.suo
+*.sln.docstates
+/target/
+/.classpath
+/*.project
+/.settings
+/*.springBeans
+
+# Directories
+.metadata/
+bin/
+
