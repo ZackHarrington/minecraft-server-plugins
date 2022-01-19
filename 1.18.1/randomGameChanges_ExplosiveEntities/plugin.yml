@@ -1,0 +1,10 @@
+author: Zack
+description: When active, all entities within 3 blocks explode after three seconds
+
+main: com.zack.randomGameChanges_ExplosiveEntities.Main
+name: randomGameChanges_ExplosiveEntities
+version: 1.0.0
+api-version: 1.18
+commands:
+  explosiveentities:
+    description: Controls the explosive entities plugin

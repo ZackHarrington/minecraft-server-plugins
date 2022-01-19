@@ -1,0 +1,10 @@
+author: Zack
+description: A building challenge plugin
+
+main: com.zack.minigame_RandomBlockChallenge.Main
+name: minigame_RandomBlockChallenge
+version: 1.1.0
+api-version: 1.18
+commands:
+  randomBlockChallenge:
+    description: Creates a Random Block Challenge per your specifications

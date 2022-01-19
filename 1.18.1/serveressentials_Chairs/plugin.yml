@@ -1,0 +1,7 @@
+author: Zack
+description: Allows players to sit on slabs and stairs by clicking with their bare hand
+
+main: com.zack.serveressentials_Chairs.Main
+name: serveressentials_Chairs
+version: 1.3.0
+api-version: 1.18

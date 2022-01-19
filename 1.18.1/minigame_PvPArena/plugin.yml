@@ -1,0 +1,10 @@
+author: Zack
+description: A minigame plugin hosting many different arenas and kits for PvP
+
+main: com.zack.minigame_PvPArena.Main
+name: minigame_PvPArena
+version: 1.2.0
+api-version: 1.18
+commands:
+  pvpArena:
+    description: Allows players to interact with a PvPArena

@@ -1,0 +1,12 @@
+author: Zack
+description: A stopwatch and coundown plugin
+
+main: com.zack.serveressentials_Clock.Main
+name: serveressentials_Clock
+version: 1.1.0
+api-version: 1.18
+commands:
+  stopwatch:
+    description: Controls your individual stopwatch
+  countdown:
+    description: Controls your individual countdown
