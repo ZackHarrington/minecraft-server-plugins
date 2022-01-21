@@ -3,6 +3,7 @@ package com.zack.randomGameChanges_ExplosiveEntities;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Random;
 import java.util.UUID;
 
 import org.bukkit.Bukkit;
@@ -12,14 +13,18 @@ import org.bukkit.World;
 import org.bukkit.entity.Entity;
 import org.bukkit.scheduler.BukkitRunnable;
 
+import net.md_5.bungee.api.ChatColor;
+
 public class Manager extends BukkitRunnable {
 
 	private static List<World> explodingWorlds;
 	private static HashMap<UUID, Integer> explodingEntities;
+	private static Random random;
 	
 	public Manager() {
 		explodingWorlds = new ArrayList<>();
 		explodingEntities = new HashMap<>();
+		random = new Random();
 		
 		this.runTaskTimer(Main.getInstance(), 20, 1);			// Every tick it shows a fire particle
 	}
@@ -37,8 +42,11 @@ public class Manager extends BukkitRunnable {
 					break;
 				}
 				
-				// Check if it's time to explode
+				// Check if it's time to explode, decrease timer
 				explodingEntities.put(entityID, explodingEntities.get(entityID) - 1);
+				entity.setCustomName(ChatColor.RED + 
+						Integer.toString(explodingEntities.get(entityID) / 20) + "." + 
+						Integer.toString((explodingEntities.get(entityID) / 2) % 10));
 				if (explodingEntities.get(entityID) <= 0) {
 					// location, power, setFire, breakBlocks, source
 					world.createExplosion(entity.getLocation(), 2, false, true, entity);
@@ -77,8 +85,12 @@ public class Manager extends BukkitRunnable {
 	
 	public static void addEntity(Entity entity) {
 		if (!explodingEntities.containsKey(entity.getUniqueId())) {
-			explodingEntities.put(entity.getUniqueId(), 60);	// 3 seconds
+			int timer = (random.nextInt(3) + 3) * 20;
+			explodingEntities.put(entity.getUniqueId(), timer);	// 3 seconds
 			entity.getWorld().playSound(entity.getLocation(), Sound.ENTITY_CREEPER_PRIMED, 1.0f, 1.0f);
+			entity.setCustomName(ChatColor.RED + 
+					Integer.toString(timer / 20) + "." + Integer.toString((timer / 2) % 10));
+			entity.setCustomNameVisible(true);
 		}
 	}
 	public static boolean isExploding(UUID entityID) {

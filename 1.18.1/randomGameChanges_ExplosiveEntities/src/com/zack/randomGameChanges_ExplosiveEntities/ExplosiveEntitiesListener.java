@@ -4,13 +4,16 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityCombustEvent;
 import org.bukkit.event.entity.EntityDeathEvent;
+import org.bukkit.event.entity.EntityExplodeEvent;
 import org.bukkit.event.entity.EntityPickupItemEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 
 public class ExplosiveEntitiesListener implements Listener {
 
+	// Addition
 	@EventHandler
 	public void onMove(PlayerMoveEvent event) {
 		Player player = event.getPlayer();
@@ -36,8 +39,25 @@ public class ExplosiveEntitiesListener implements Listener {
 		}
 	}
 	
+	// Removal
 	@EventHandler 
 	public void onEntityDeath(EntityDeathEvent event) { 
+		Entity entity = event.getEntity();
+		
+		if (Manager.isExploding(entity.getUniqueId()))
+			Manager.removeEntity(entity.getUniqueId()); 
+	}
+	
+	@EventHandler
+	public void onEntityExplode(EntityExplodeEvent event) {
+		Entity entity = event.getEntity();
+		
+		if (Manager.isExploding(entity.getUniqueId()))
+			Manager.removeEntity(entity.getUniqueId()); 
+	}
+	
+	@EventHandler
+	public void onEntityCombust(EntityCombustEvent event) {
 		Entity entity = event.getEntity();
 		
 		if (Manager.isExploding(entity.getUniqueId()))
